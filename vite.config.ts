@@ -5,6 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/sales_dashboard/',
   plugins: [
     react(),
     tailwindcss(),
@@ -15,4 +16,3 @@ export default defineConfig({
     },
   },
 })
-
